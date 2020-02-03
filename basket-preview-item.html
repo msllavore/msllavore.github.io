@@ -1,0 +1,597 @@
+body {
+    /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+    font-family: 'Playfair Display', serif;
+    padding-top: 220px;
+    /*necessary because of the fixed navbar*/
+    color: #001011;
+    background-color: #f6f6f6;
+    letter-spacing: .1em;
+}
+
+a, input[type="text"], h1, h5 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+input[type="text"] {
+    letter-spacing: .1em;
+    font-size: 1.35em;
+}
+
+#search-form {
+    margin-top: 100px;
+    border: none;
+}
+
+#search-button {
+    -webkit-box-shadow: 0px 2px 12px -4px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: 0px 2px 12px -4px rgba(0, 0, 0, 0.66);
+    box-shadow: 0px 2px 12px -4px rgba(0, 0, 0, 0.66);
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.45em;
+}
+
+h5 {
+    font-size: 1.35em;
+}
+
+nav {
+    -webkit-box-shadow: 0px 2px 25px -4px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: 0px 2px 25px -4px rgba(0, 0, 0, 0.66);
+    box-shadow: 0px 2px 25px -4px rgba(0, 0, 0, 0.66);
+}
+
+.active {
+    /*navbar active state*/
+    background-color: white;
+}
+
+.navbar-logo {
+    padding: 0;
+}
+
+/* MAIN NAVIGATION */
+#main-nav-links > ul {
+    margin: 0;
+    float: left;
+}
+
+#main-nav-links > ul:first-child {
+    width: 90%;
+}
+
+#main-nav-links > ul:last-child {
+    width: 10%;
+}
+
+#main-nav-links a {
+    padding: .5em;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    color: #001011;
+    float: left;
+}
+
+#dropdown-menu {
+    position: absolute;
+    top: 37.5px;
+    background-color: #fff;
+    width: 100px;
+}
+
+#dropdown-menu a {
+    width: 100%;
+}
+
+.view-all-button, .add-to-cart-button,
+.go-to-basket {
+    background-color: #3aafb9;
+    border: none;
+    color: white;
+}
+
+a.footer-media, .fa-shopping-basket {
+    color: #3aafb9;
+}
+
+#basket-count {
+    height: 20px;
+    width: 20px;
+    background-color: #f38d68;
+    position: absolute;
+    left: 12px;
+    top: -6px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    z-index: 10;
+}
+
+/* HOME PAGE FEATURED IMAGE */
+#featured-image {
+    height: 200px;
+    background-image: url(../images/pokemon-featured.jpg);
+    background-size: cover;
+    position: relative;
+    border-radius: 0;
+    margin: 0;
+}
+
+#featured-image h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+#featured-image h1 span {
+    background-color: #f38d68;
+    color: white;
+    padding: 0 .25em;
+}
+
+#featured-image #featured-image-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+#vloggers-section figure, #vlogger-friends figure {
+    width: 80%;
+    margin: 0 auto 1em;
+    text-align: center;
+}
+
+#vloggers-section a figure{
+    color: #001011;
+}
+
+#vloggers-section a:hover {
+    text-decoration: none;
+}
+
+#vloggers-last {
+    text-align: center;
+}
+
+#vloggers-section > div > div, #vlogger-friends > div > div {
+    margin-bottom: 1em;
+}
+
+#vloggers-section img, #vlogger-friends img {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+#vloggers-section figcaption, #vlogger-friends figcaption {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-family: 'Playfair Display', serif;
+    margin: .5em auto 0;
+    max-width: 200px; 
+    border-bottom: 5px solid #f6f6f6;
+}
+
+.page-header {
+    background-color: #fca17d;
+    color: #f6f6f6;
+    padding: 15px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 0;
+}
+
+.page-header h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-top: 0;
+}
+
+.page-header a {
+    color: #f6f6f6;
+}
+
+.page-header figure {
+    display: none;
+}
+
+.products-section figcaption,
+.products-section p {
+    font-family: 'Playfair Display', serif;
+}
+
+.products-section figure {
+    text-align: center;
+}
+
+.products-section figure img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.add-to-cart-button {
+    margin: 0 auto;
+    margin-bottom: 1em;
+    width: 90%;
+}
+
+.tutorials ul img {
+    width: 100%;
+    max-width: 350px;
+}
+
+.tutorials ul {
+    list-style: none;
+    text-align: center;
+}
+
+.tutorials div {
+    height: 200px;
+    position: relative;
+}
+
+.tutorials div a {
+    position: absolute;
+    width: 50%;
+    top: 45%;
+}
+
+.tutorials h3 {
+    margin-left: 30px;
+}
+
+footer {
+    background-color: #e1e1e1;
+    padding: 0 15px 10px;
+    margin-top: 15px;
+    padding-bottom: 3em;
+}
+
+footer a {
+    color: #001011;
+}
+
+#basket-preview-container {
+    padding: 0;
+    width: 300px;
+    -webkit-box-shadow: 0px 2px 25px -4px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: 0px 2px 25px -4px rgba(0, 0, 0, 0.66);
+    box-shadow: 0px 2px 25px -4px rgba(0, 0, 0, 0.66);
+    border: none;
+    background-color: #f6f6f6;
+    left: -300px;
+    position: absolute;   
+}
+
+.basket-preview-footer {
+    height: 100px;
+    clear: both;
+}
+
+.basket-preview-header h4 {
+    background-color: #fca17d;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.basket-preview-footer h4 {
+    padding: 10px;
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.basket-preview-footer h4:nth-child(1) {
+    width: 60%;
+    float: left;
+}
+
+.basket-preview-footer h4:nth-child(2) {
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+
+#basket-preview-container > ul{
+    list-style: none;
+    width: 100%;
+    height: 300px;
+    padding: 0;
+    overflow: auto;
+    font-family: "Playfair Display", serif;
+    font-size: .8em;
+}
+
+#basket-preview-container img, #table-basket-contents img {
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+#table-basket-contents figcaption {
+    text-align: left;
+}
+
+#basket-preview-container figure {
+    width: 68%;
+    float: left;
+    margin-left: 2%;
+}
+
+#basket-preview-container div.product-details {
+    width: 30%;
+    float: right;
+    text-align: center;
+    font-weight: bold;
+}
+
+#main-nav-links a.update-button,
+#main-nav-links a.remove-button,
+#table-basket-contents a.update-button,
+#table-basket-contents a.remove-button{
+    text-align: center;
+    width: 100%;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    color: #001011;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+#basket-preview-container input, #table-basket-contents input {
+    width: 75px;
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#basket-preview-container li {
+    clear: both;
+    margin-top: 15px;
+    border-bottom: 1px solid #e1e1e1;
+    overflow: auto;
+}
+
+#main-nav-links a.go-to-basket {
+    width: 90%;
+    margin-left: 5%;
+    color: white;
+}
+
+#basket-preview-container li.empty-basket-preview {
+    border: none;
+}
+
+.empty-basket-preview p {
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+
+#empty-basket {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#empty-basket h1, .cont-shop-button {
+    margin: 2em 0;   
+}
+
+#table-basket-contents img{
+    max-width:100px;
+}
+
+#table-basket-contents {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+
+#table-basket-contents th {
+    background-color: #e1e1e1;
+    text-align: center;
+    padding-top: .5em 1em;
+}
+
+#table-basket-contents td {
+    padding: 1em 0;
+    vertical-align: top;
+}
+
+#table-basket-contents tr:nth-child(n+2) {
+    border-bottom: 1px solid #e1e1e1;  
+}
+
+@media screen and (min-width: 560px) {
+    #main-nav-links ul:first-child {
+        padding-left: 15px;
+    }
+    #main-nav-links ul:last-child {
+        width: 5%;
+    }
+    #featured-image {
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        padding-top: 150px;
+        /*necessary because of the fixed navbar*/
+    }
+    h1 {
+        font-size: 3em;
+    }
+    .navbar {
+        padding: 0 1em;
+    }
+    #main-nav-links {
+        margin-top: 50px;
+    }
+    #main-nav-links ul:first-child {
+        padding-left: 0;
+    }
+    #search-form {
+        margin-top: 10px;
+    }
+    #featured-image {
+        height: 300px;
+        background-size: cover;
+        background-position-y: -4em;
+    }
+    #featured-image h1 {
+        margin: 0;
+        font-size: 3em;
+    }
+    .container-fluid,
+    footer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .container {
+        margin: 15px;
+        padding: 0;
+    }
+    .page-header {
+        overflow: auto;
+    }
+    .page-header>div {
+        width: 60%;
+        float: left;
+    }
+    
+    .page-header figure {
+        display: inline;
+        width: 28%;
+        float: left;
+        margin-left: 10%;
+    }
+    .page-header img {
+        width: 100%;
+    }
+    
+    #vloggers-section img, #vlogger-friends img {
+        max-width: 225px;
+        margin: 0 auto;
+    }
+    
+    #vloggers-last {
+        height: 253.75px;
+    }
+    
+    .view-all-button {
+        position: relative;
+        top: 33%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #vloggers-section img, #vlogger-friends img {
+        max-width: 200px;
+        width: 100%;
+    }
+    
+    #vloggers-section figure, #vlogger-friends figure {
+        width: 90%;
+    }
+    
+    #vloggers-section figure, #vlogger-friends figure {
+        max-width: 255px;
+    }
+    
+    #vloggers-section figure,
+    #vlogger-friends figure {
+        padding: 1.5em 1em;
+    }
+    
+    #vloggers-section figure:hover,
+    #vlogger-friends figure:hover {
+        -webkit-box-shadow: 0px 2px 25px -4px rgba(0, 0, 0, 0.66);
+        -moz-box-shadow: 0px 2px 25px -4px rgba(0, 0, 0, 0.66);
+        box-shadow: 0px 2px 25px -4px rgba(0, 0, 0, 0.66);
+    }
+}
+
+ 
+
+ 
+ 
+ 
+ <li>
+  <div>
+    <figure>
+      <img src="" alt="">
+      <figcaption>
+        product name
+      </figcaption>
+    </figure>
+  </div>
+  <div>
+    <p>
+      Price
+    </p>
+    <form action="">
+      <input type="number" name="quantity">
+      <a href="" class="update-button">Update</a>
+      <a href="" class="remove-button">Remove</a>
+    </form>
+  </div>
+
+</li>
+
+
+
+
+<table id="table-basket-contents">
+    <tr>
+        <th>Item(s)</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Total</th>
+    </tr>
+    <tr>
+        <td>
+            <figure>
+                <img src="images/tant-paper/blue-tant.jpg" alt="">
+                <figcaption>product name</figcaption>
+            </figure>
+        </td>
+        <td>$9.99</td>
+        <td>
+            <form action="">
+              <input type="number" name="quantity">
+              <a href="" class="update-button">Update</a>
+              <a href="" class="remove-button">Remove</a>
+            </form>
+        </td>
+        <td>$9.99</td>
+    </tr>
+</table>
+
+
+<div class='col-xs-12 col-sm-3'id='checkout-window'>
+    <div id="checkout-header">
+    <h4>Order Summary</h4>
+    </div>
+    <div id="checkout-body">
+        <p>Subtotal (0 items)</p>
+        <p>$subtot</p>
+        <p>Est. Shipping</p>
+        <p>$shipping</p>
+        <p>Est. Taxes</p>
+        <p>$taxes</p>
+    </div>
+    <div id="checkout-footer">
+        <h4>Order Total</h4>
+        <h4>Total</h4>
+        <a class="btn btn-primary btn-lg go-to-basket" href="#" role="button">Checkout</a>
+    </div>
+</div>

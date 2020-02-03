@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Shop Origami</title>
+    <title>Shop Origami: Tant Paper Products</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -68,7 +68,7 @@
                                 <h4>In Your Cart</h4>
                             </div>
                             <ul id="basket-preview-contents">
-
+                                
                             </ul>
                             <div class="basket-preview-footer">
                                 <h4 class="preview-item-count">Subtotal (0 items)</h4>
@@ -84,106 +84,16 @@
     </nav>
 
     <div class="container-fluid">
-        <div class="jumbotron" id="featured-image">
-            <div id="featured-image-text">
-                <h1><span>New Tutorial!</span></h1>
-                <h1><span>Pokemon Origami</span></h1>
-            </div>
-        </div>
-
-        <section id="vloggers-section">
-            <h1>Check out our vlogger friends</h1>
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <a href="" data-toggle="modal" data-target="#vloggerProfile">
-                        <figure>
-                            <img src="images/vloggers/vlogger1.png" alt="vlogger1 profile avatar">
-                            <figcaption>Vlogger Name</figcaption>
-                        </figure>
-                    </a>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <a href="" data-toggle="modal" data-target="#vloggerProfile">
-                        <figure>
-                            <img src="images/vloggers/vlogger2.png" alt="vlogger2 profile avatar">
-                            <figcaption>Vlogger Name</figcaption>
-                        </figure>
-                    </a>
-                </div>
-
-
-                <div class="col-xs-12 col-sm-6 col-md-3">
-                    <a href="" data-toggle="modal" data-target="#vloggerProfile">
-                        <figure>
-                            <img src="images/vloggers/vlogger3.png" alt="vlogger3 profile avatar">
-                            <figcaption>Vlogger Name</figcaption>
-                        </figure>
-                    </a>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-3" id="vloggers-last">
-                    <a class="btn btn-primary btn-lg view-all-button" href="vlogger-friends.html" role="button">View All</a>
-                </div>
-            </div>
-        </section>
+       <div id="basket-container">
+           
+       </div>
+       
+        <!--<div id="empty-basket">
+            <h1>Your basket is currently empty. Why don't you take some time to browse through our books and paper products?</h1>
+            <a class="btn btn-primary btn-lg cont-shop-button" href="index.html" role="button">Continue Shopping</a>
+        </div>-->
     </div>
 
-    <div class="modal fade" id="vloggerProfile" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times" aria-hidden="true"></i></span></button>
-                    <img src="images/vloggers/vlogger1.png" alt="vlogger1 profile avatar">
-                    <h4 class="modal-title" id="myModalLabel">Vlogger Name</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec enim nec ipsum ultricies imperdiet eget et neque. In tincidunt rhoncus ipsum a posuere. Sed maximus nulla sit amet dui venenatis consequat. Sed ex turpis, gravida vel convallis vitae, facilisis at odio. Maecenas pellentesque blandit lacinia. </p>
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                    <i class="fa fa-youtube" aria-hidden="true"></i>
-
-                </div>
-                <div class="modal-body">
-                    <div class="vlogger-tutorials col-xs-12">
-                        <h3>Origami Tutorials</h3>
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                            <a href="#"><img src="images/tutorials/fish.jpg" alt=""></a>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                            <a href="#"><img src="images/tutorials/fox.jpg" alt=""></a>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-4">
-                            <a href="#"><img src="images/tutorials/elephant.jpg" alt=""></a>
-                        </div>
-                    </div>
-
-                    <div class="recent-purchases col-xs-12">
-                        <h3>Recent Purchases</h3>
-                        <figure class="col-xs-12 col-sm-6 col-md-4">
-                            <img src="images/tant-paper/brown-tant.jpg" alt="">
-                            <figcaption>Tant Paper Pack - Brown</figcaption>
-                            <p>$9.99</p>
-                            <a class="btn btn-primary btn-lg add-to-cart-button" href="#" role="button">Add to Cart</a>
-                        </figure>
-
-                        <figure class="col-xs-12 col-sm-6 col-md-4">
-                            <img src="images/tissue-paper/red-tissue.jpg" alt="origami tissue paper">
-                            <figcaption>Tissue Paper Pack - Red</figcaption>
-                            <p>$9.99</p>
-                            <a class="btn btn-primary btn-lg add-to-cart-button" href="#" role="button">Add to Cart</a>
-                        </figure>
-
-                        <figure class="col-xs-12 col-sm-6 col-md-4">
-                            <img src="images/books/akira-yoshizawa.jpg" alt="akira yoshizawa book cover">
-                            <figcaption>Akira Yoshizawa</figcaption>
-                            <p>$19.92</p>
-                            <a class="btn btn-primary btn-lg add-to-cart-button" href="#" role="button">Add to Cart</a>
-                        </figure>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <footer>
         <div class="row">
@@ -214,7 +124,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/add-to-cart.js"></script>
-    <script src="js/vlogger-hover.js"></script>
+    <script src="js/load-basket.js"></script>
 </body>
 
 </html>
